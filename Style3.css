@@ -1,9 +1,11 @@
+/* Dati, kas raksturo formatējumu fonā lietojamam attēlam ar 45 grādu leņķī vērstiem "Rough Style" logotipiem gluži kā sienas tafetei. Un Satur atsauci uz šo attēlu, kuru konkrēti ievieto kā fona attēlu.*/
 .container1 {
     width: 100%;
     margin: 0 auto;
     background-image: url('Pics-titul/Logo-fona.png');
   }
-    
+
+/* Dati, kas satur ķermeņa pamatdaļas elementu formatējumu vispārīgi uz visiem, kad ir class="item item-"cipars" " ar priekšākumā .item atrašanos, kas visiem piešķirās. Formatējums satur apmaļu, fonta biezumu jeb arī smagumu, fona krāsu un robežlīnijas biezumu. */
   .item {
     padding: 15px;
     background-color: #DBB565 ;
