@@ -1,3 +1,4 @@
+// Dati, kas satur funkcijas attēlu galerijas darbī, kā attēlu slaida pāreja uz nākamo vai iepriekšjo slaidu ar divām pretī esošām pogām.
 const sliderContainer = document.querySelector(".slider-container");
 const slideRight = document.querySelector(".right-slide");
 const slideLeft = document.querySelector(".left-slide");
