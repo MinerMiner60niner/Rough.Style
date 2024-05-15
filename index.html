@@ -1,17 +1,25 @@
+<!-- Definē šo failu par HTML failu -->
 <!DOCTYPE html>
-<html lang="lv">
-    <head>
 
+<!-- Rakstāmvaloda- latviešu -->
+<html lang="lv">
+    
+    Galvene, kura satur informāciju par stilizāciju visam turpmākajam dokumentam un no kuriem failiem, saitēm ar atsaucēm izvilkt stilizējumu, funkciju darbībai.
+    <head>
+        
+<!--         Simbolu glabātuves un pieejamības standarts, lai visi lietojamie simboli tekstā (burti un emocijzīmes) būtu viegli pieejami lietojumam bez papildus apejām. -->
         <meta charset="UTF-8" />
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
+<!--         Mājaslapas nosaukums pārlūkprogrammu lodziņos "tabs". -->
         <title>Rough Style</title>
-
+        
+<!--         Atsauce uz failiem, kuru dati ir lietoti mājaslapas izvietojuma, teksta, attēlu, satura kārtības un krāsu stilizācijai. -->
         <link rel="stylesheet" href="Style.css" href="Style2.css" href="Style3.css"/>
-
+        
+<!-- Atsauce uz interneta mājaslapu saitēm, kuras satur datu bibliotēkas ar stilizācijas un funkcionalitātes datiem, kurus lietoju šīs darbībai. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,9 +27,12 @@
 
     </head>
 
+<!--     Ķermenis jeb galvenā pamata daļa, kura satur visus rādāmos satura elementus mājaslapā -->
 <body>
 
+<!--     "Div" jeb atzīmējums ka šis ir individuāls formatējamais elements ar savu saturu, novietojumu un stilizāciju. -->
 <div>
+
         <!-- <div class="container1">
 
         <div class="item-11">
@@ -49,8 +60,10 @@
 
 </div> -->
 
+<!--     Atsauce uz atrādāmu attēla failu ar izmēra formatējumu pikseļu mērvienībā. -->
 <div><span><img src="Screenshot 2024-05-03 071712.png" width="1060px" height="1070px"></span></div>
 
+<!--     Satura elements, kurš veido galerijas uzbūvi piesaucot fona krāsas, teksta fonta un emocijzīmes izmēru. Un emocijzīmes ir atvēlamas no jau pastāvošās Unicode bibliotēkas ar UTF-8 standartu strādājot ar VS Studio IDE kodēšanas programmu. -->
         <div class="slider-container">
             <div class="left-slide">
                 <div style="background-color: #DBB565">
@@ -142,6 +155,7 @@
             </div>
         </div>
 
+<!--     Atsauce uz failu, kurš satur galerijas slaidu animācijas darbībai vajadzīgās funkcijas un parametrus tā darbībai. -->
         <script src="Funk.js"></script>
 
     </body>
